@@ -1,7 +1,7 @@
 ## Implementation
-The conversion from convetional(infix) notation to postfix is done by an implenetation of Dijkstra's shunting-yard algorithm [Dijkstra's shunting-yard algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm). See: [infix.py](\infix.py).
+The conversion from convetional(infix) notation to postfix is done by an implenetation of [Dijkstra's shunting-yard algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm). See: [infix.py](\infix.py).
 
-Evaluation of postflix expression is dobe by an i,plementation of the postfix evaluation algorithm as explained[here](https://en.wikipedia.org/wiki/Reverse_Polish_notation). See: [posfix.py](\postfix.py).
+Evaluation of postflix expression is done by an implementation of the postfix evaluation algorithm as explained[here](https://en.wikipedia.org/wiki/Reverse_Polish_notation). See: [posfix.py](\postfix.py).
 
 ## Background and Advantages
 In postfix notation, the operators follow their operands; for instance, to add 3 and 4, one would write 3 4 + rather than 3 + 4. If there are multiple operations, operators are given immediately after their second operands; so the expression written 3 − 4 + 5 in conventional notation would be written 3 4 − 5 + in postfix notation: 4 is first subtracted from 3, then 5 is added to it. 
