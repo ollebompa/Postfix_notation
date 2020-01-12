@@ -20,7 +20,7 @@ class Stack:
         and return it.
         :return: most recently added item from the stack.
         """
-       return self.stack.pop()
+        return self.stack.pop()
 
     def peek(self):
         """
@@ -35,4 +35,4 @@ class Stack:
         Check if the stack is empty.
         :return: if stack is empty:---> True, else: ---> False
         """
-       return len(self.stack) == 0
+        return len(self.stack) == 0
